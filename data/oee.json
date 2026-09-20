@@ -1,0 +1,117 @@
+[
+  {
+    "id": 1,
+    "machine": "MAQUINA 1",
+    "section": "Preparación",
+    "status": "running",
+    "availability": 94,
+    "performance": 88,
+    "quality": 97,
+    "oee": 80,
+    "timeline": [
+      { "fecha_ini": "2026-09-14T06:00:00Z", "fecha_fin": "2026-09-14T10:00:00Z", "gptrabtip_cod": "01", "gptrabtip_desc": "PRODUCCION", "gpoper_nombre": "Lorena" },
+      { "fecha_ini": "2026-09-14T10:00:00Z", "fecha_fin": "2026-09-14T10:30:00Z", "gptrabtip_cod": "05", "gptrabtip_desc": "PARADA", "gpoper_nombre": "Lorena" },
+      { "fecha_ini": "2026-09-14T10:30:00Z", "fecha_fin": "2026-09-14T16:00:00Z", "gptrabtip_cod": "01", "gptrabtip_desc": "PRODUCCION", "gpoper_nombre": "Carlos" },
+      { "fecha_ini": "2026-09-15T06:00:00Z", "fecha_fin": "2026-09-15T09:00:00Z", "gptrabtip_cod": "01", "gptrabtip_desc": "PRODUCCION", "gpoper_nombre": "Lorena" },
+      { "fecha_ini": "2026-09-15T09:00:00Z", "fecha_fin": "2026-09-15T09:40:00Z", "gptrabtip_cod": "04", "gptrabtip_desc": "PREPARACION", "gpoper_nombre": "Miguel" },
+      { "fecha_ini": "2026-09-15T09:40:00Z", "fecha_fin": "2026-09-15T14:00:00Z", "gptrabtip_cod": "01", "gptrabtip_desc": "PRODUCCION", "gpoper_nombre": "Lorena" }
+    ]
+  },
+  {
+    "id": 2,
+    "machine": "MAQUINA 2",
+    "section": "Medición",
+    "status": "running",
+    "availability": 91,
+    "performance": 86,
+    "quality": 99,
+    "oee": 78,
+    "timeline": [
+      { "fecha_ini": "2026-09-14T06:00:00Z", "fecha_fin": "2026-09-14T14:00:00Z", "gptrabtip_cod": "01", "gptrabtip_desc": "PRODUCCION", "gpoper_nombre": "Carlos" },
+      { "fecha_ini": "2026-09-15T06:00:00Z", "fecha_fin": "2026-09-15T08:00:00Z", "gptrabtip_cod": "03", "gptrabtip_desc": "MANTENIMIENTO", "gpoper_nombre": "Miguel" },
+      { "fecha_ini": "2026-09-15T08:00:00Z", "fecha_fin": "2026-09-15T14:00:00Z", "gptrabtip_cod": "01", "gptrabtip_desc": "PRODUCCION", "gpoper_nombre": "Carlos" }
+    ]
+  },
+  {
+    "id": 3,
+    "machine": "MAQUINA 3",
+    "section": "Corte",
+    "status": "warning",
+    "availability": 78,
+    "performance": 82,
+    "quality": 96,
+    "oee": 61,
+    "timeline": [
+      { "fecha_ini": "2026-09-14T06:00:00Z", "fecha_fin": "2026-09-14T09:00:00Z", "gptrabtip_cod": "01", "gptrabtip_desc": "PRODUCCION", "gpoper_nombre": "Ana" },
+      { "fecha_ini": "2026-09-14T09:00:00Z", "fecha_fin": "2026-09-14T10:30:00Z", "gptrabtip_cod": "02", "gptrabtip_desc": "AVERIA", "gpoper_nombre": "Miguel" },
+      { "fecha_ini": "2026-09-14T10:30:00Z", "fecha_fin": "2026-09-14T16:00:00Z", "gptrabtip_cod": "01", "gptrabtip_desc": "PRODUCCION", "gpoper_nombre": "Ana" },
+      { "fecha_ini": "2026-09-15T06:00:00Z", "fecha_fin": "2026-09-15T11:00:00Z", "gptrabtip_cod": "01", "gptrabtip_desc": "PRODUCCION", "gpoper_nombre": "Ana" },
+      { "fecha_ini": "2026-09-15T11:00:00Z", "fecha_fin": "2026-09-15T12:00:00Z", "gptrabtip_cod": "04", "gptrabtip_desc": "PREPARACION", "gpoper_nombre": "Miguel" },
+      { "fecha_ini": "2026-09-15T12:00:00Z", "fecha_fin": "2026-09-15T14:00:00Z", "gptrabtip_cod": "01", "gptrabtip_desc": "PRODUCCION", "gpoper_nombre": "Ana" }
+    ]
+  },
+  {
+    "id": 4,
+    "machine": "MAQUINA 4",
+    "section": "Impresión",
+    "status": "stopped",
+    "availability": 42,
+    "performance": 55,
+    "quality": 90,
+    "oee": 21,
+    "timeline": [
+      { "fecha_ini": "2026-09-14T06:00:00Z", "fecha_fin": "2026-09-14T08:00:00Z", "gptrabtip_cod": "01", "gptrabtip_desc": "PRODUCCION", "gpoper_nombre": "Carlos" },
+      { "fecha_ini": "2026-09-14T08:00:00Z", "fecha_fin": "2026-09-14T14:00:00Z", "gptrabtip_cod": "02", "gptrabtip_desc": "AVERIA", "gpoper_nombre": "Miguel" },
+      { "fecha_ini": "2026-09-15T06:00:00Z", "fecha_fin": "2026-09-15T07:00:00Z", "gptrabtip_cod": "01", "gptrabtip_desc": "PRODUCCION", "gpoper_nombre": "Carlos" },
+      { "fecha_ini": "2026-09-15T07:00:00Z", "fecha_fin": "2026-09-15T14:00:00Z", "gptrabtip_cod": "02", "gptrabtip_desc": "AVERIA", "gpoper_nombre": "Miguel" }
+    ]
+  },
+  {
+    "id": 5,
+    "machine": "MAQUINA 5",
+    "section": "Costura",
+    "status": "running",
+    "availability": 90,
+    "performance": 84,
+    "quality": 95,
+    "oee": 72,
+    "timeline": [
+      { "fecha_ini": "2026-09-14T06:00:00Z", "fecha_fin": "2026-09-14T12:00:00Z", "gptrabtip_cod": "01", "gptrabtip_desc": "PRODUCCION", "gpoper_nombre": "Lorena" },
+      { "fecha_ini": "2026-09-14T12:00:00Z", "fecha_fin": "2026-09-14T12:30:00Z", "gptrabtip_cod": "05", "gptrabtip_desc": "PARADA", "gpoper_nombre": "Lorena" },
+      { "fecha_ini": "2026-09-14T12:30:00Z", "fecha_fin": "2026-09-14T16:00:00Z", "gptrabtip_cod": "01", "gptrabtip_desc": "PRODUCCION", "gpoper_nombre": "Ana" },
+      { "fecha_ini": "2026-09-15T06:00:00Z", "fecha_fin": "2026-09-15T14:00:00Z", "gptrabtip_cod": "01", "gptrabtip_desc": "PRODUCCION", "gpoper_nombre": "Lorena" }
+    ]
+  },
+  {
+    "id": 6,
+    "machine": "MAQUINA 6",
+    "section": "Planchado",
+    "status": "warning",
+    "availability": 74,
+    "performance": 80,
+    "quality": 93,
+    "oee": 55,
+    "timeline": [
+      { "fecha_ini": "2026-09-14T06:00:00Z", "fecha_fin": "2026-09-14T07:30:00Z", "gptrabtip_cod": "03", "gptrabtip_desc": "MANTENIMIENTO", "gpoper_nombre": "Miguel" },
+      { "fecha_ini": "2026-09-14T07:30:00Z", "fecha_fin": "2026-09-14T15:00:00Z", "gptrabtip_cod": "01", "gptrabtip_desc": "PRODUCCION", "gpoper_nombre": "Carlos" },
+      { "fecha_ini": "2026-09-15T06:00:00Z", "fecha_fin": "2026-09-15T10:00:00Z", "gptrabtip_cod": "01", "gptrabtip_desc": "PRODUCCION", "gpoper_nombre": "Carlos" },
+      { "fecha_ini": "2026-09-15T10:00:00Z", "fecha_fin": "2026-09-15T11:15:00Z", "gptrabtip_cod": "05", "gptrabtip_desc": "PARADA", "gpoper_nombre": "Ana" },
+      { "fecha_ini": "2026-09-15T11:15:00Z", "fecha_fin": "2026-09-15T14:00:00Z", "gptrabtip_cod": "01", "gptrabtip_desc": "PRODUCCION", "gpoper_nombre": "Carlos" }
+    ]
+  },
+  {
+    "id": 7,
+    "machine": "MAQUINA 7",
+    "section": "Empaquetado",
+    "status": "stopped",
+    "availability": 38,
+    "performance": 48,
+    "quality": 88,
+    "oee": 16,
+    "timeline": [
+      { "fecha_ini": "2026-09-14T06:00:00Z", "fecha_fin": "2026-09-14T07:00:00Z", "gptrabtip_cod": "01", "gptrabtip_desc": "PRODUCCION", "gpoper_nombre": "Ana" },
+      { "fecha_ini": "2026-09-14T07:00:00Z", "fecha_fin": "2026-09-14T16:00:00Z", "gptrabtip_cod": "02", "gptrabtip_desc": "AVERIA", "gpoper_nombre": "Miguel" },
+      { "fecha_ini": "2026-09-15T06:00:00Z", "fecha_fin": "2026-09-15T14:00:00Z", "gptrabtip_cod": "05", "gptrabtip_desc": "PARADA", "gpoper_nombre": "Ana" }
+    ]
+  }
+]

@@ -57,7 +57,21 @@
         "base_imponible_total": "Base Imponible",
         "iva_total": "IVA",
         "gran_total": "Total Factura",
-        "moneda": "Moneda"
+        "moneda": "Moneda",
+        "running": "En marcha",
+        "warning": "Atención",
+        "stopped": "Parada",
+        "Disponibilidad": "Disponibilidad",
+        "Rendimiento": "Rendimiento",
+        "Calidad": "Calidad",
+        "PRODUCCION": "Producción",
+        "AVERIA": "Avería",
+        "MANTENIMIENTO": "Mantenimiento",
+        "PREPARACION": "Preparación",
+        "PARADA": "Parada",
+        "Inicio": "Inicio",
+        "Fin": "Fin",
+        "Duracion": "Duración"
     },
     "english": {
         "Welcome back": "Welcome back",
@@ -117,6 +131,20 @@
         "base_imponible_total": "Tax Base",
         "iva_total": "VAT",
         "gran_total": "Grand Total",
-        "moneda": "Currency"
+        "moneda": "Currency",
+        "running": "Running",
+        "warning": "Warning",
+        "stopped": "Stopped",
+        "Disponibilidad": "Availability",
+        "Rendimiento": "Performance",
+        "Calidad": "Quality",
+        "PRODUCCION": "Production",
+        "AVERIA": "Breakdown",
+        "MANTENIMIENTO": "Maintenance",
+        "PREPARACION": "Setup",
+        "PARADA": "Idle",
+        "Inicio": "Start",
+        "Fin": "End",
+        "Duracion": "Duration"
     }
 }
